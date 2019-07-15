@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>author</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<style>
+body {
+ 
+.profilku{ font:normal normal 11px/normal Tahoma,Verdana,Arial,Sans-Serif; margin:10px 1px;padding:10px; background-color:#fff2cb;height:100%} .kiri{width:20%;float:left} .kanan{width:80%}
+}
+</style>
+
+<div class='profilku'>
+<div class='kiri'>
+<amp-img expr:alt='data:post.author' expr:src='data:post.authorPhoto.url' height='50px' layout='responsive' width='50px'/></div>
+<div class='kanan'>
+<b>author  :</b> <data:post.author/><br/>
+<b>owner     :</b> <a expr:href='data:post.url'><data:post.title/></a><br/>
+<b>Note     :</b>Thank you for reading this article. Please comment.<br/></div>
+</div>
+</head>
+</body>
+</html>
